@@ -17,8 +17,6 @@ export default function homepage() {
        <Eventcard />
        <Ticket />
        <Venue />
-     
-    
        <Eventpage />
        <Eventlist />
        <Newsletter />

@@ -8,6 +8,7 @@ import Venue from "./venue"
 import Ticket from "./ticket"
 import Newsletter from "./newsletter"
 
+
 export default function homepage() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function homepage() {
        <Eventcard />
        <Ticket />
        <Venue />
+     
     
        <Eventpage />
        <Eventlist />

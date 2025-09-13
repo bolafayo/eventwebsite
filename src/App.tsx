@@ -3,6 +3,7 @@ import './App.css';
 import Homepage from './component/pages/homepage';
 import Navbar from './component/pages/navbar';
 import Heropage from './component/ui/heropage';
+import Event from "./component/pages/event";
 
 function App() {
  
@@ -14,7 +15,8 @@ function App() {
     <Routes>
   
       <Route path='/' element={<Homepage />}></Route>
-      <Route path='/navbar' element={<Navbar />}></Route>
+      <Route path='/event' element={<Event />}></Route>
+      <Route path='/event' element={<Navbar />}></Route>
       <Route path='/heropae' element={<Heropage />}></Route>
      
     </Routes>

@@ -13,7 +13,7 @@ export default function Navbar() {
         </h1>
         <ul className="hidden md:flex  text-1xl  space-x-8 font-medium gap-15">
             <li>
-            <Link to="/homepage" className=" hover:opacity-80 ">
+            <Link to="/" className=" hover:opacity-80 ">
            HOME
           </Link>
             </li>
@@ -43,7 +43,7 @@ export default function Navbar() {
     {isOpen && (
         <div className="md:hidden bg-secondary text-primary px-8 py-4 space-y-4 text-lg font-medium">
           <Link
-            to="/homepage"
+            to="/"
             className="block hover:opacity-80"
             onClick={() => setIsOpen(false)}
           >

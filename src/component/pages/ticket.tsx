@@ -1,5 +1,4 @@
-
-
+import { Link } from "react-router-dom";
 export default function ticket() {
   return (
     <section className="py-16 bg-secondary mt-1 text-primary text-center">
@@ -7,9 +6,14 @@ export default function ticket() {
       <p className="text-primary max-w-xl mx-auto mb-6">
         Secure your seat now and don’t miss out on this amazing event!
       </p>
-      <button className="bg-lime text-black px-8 py-3 rounded-xl font-semibold hover:bg-primary cursor-pointer">
+
+      
+      <Link
+        to="/contact"
+        className="bg-lime text-secondary px-8 py-3 rounded-xl font-semibold hover:bg-primary cursor-pointer inline-block"
+      >
         Get Ticket
-      </button>
+      </Link>
     </section>
   )
 }

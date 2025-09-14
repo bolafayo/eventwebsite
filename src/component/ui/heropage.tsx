@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 export default function heropage() {
   return (
@@ -9,9 +9,13 @@ export default function heropage() {
       <p className="text-primary max-w-2xl mx-auto mb-6">
         Welcome to EventX, the ultimate destination for discovering and booking upcoming events.
       </p>
-      <button className="bg-lime text-secondary px-6 py-3 rounded-xl font-semibold hover:bg-primary cursor-pointer">
+     
+       <Link
+        to="/schedule"
+        className="bg-lime text-secondary px-6 py-3 rounded-xl font-semibold hover:bg-primary cursor-pointer inline-block"
+      >
         Book Your Seat
-      </button>
+      </Link>
    </section>
   )
 }

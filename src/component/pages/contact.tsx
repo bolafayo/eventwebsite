@@ -73,7 +73,7 @@ export default function ContactPage() {
             </form>
           </div>
 
-          {/* Contact Info & Map */}
+        
           <div>
             <h2 className="text-4xl font-bold mb-6">Contact Information</h2>
             <p className="mb-4">Lagos Civic Centre, Victoria Island, Lagos</p>

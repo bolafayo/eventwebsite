@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import  { useState } from "react";
 import { Search } from "lucide-react";
 import Navbar from "./navbar";
@@ -195,12 +196,18 @@ export default function EventsPage() {
                   </p>
                   <p className="text-primary text-sm mb-2">{event.venue}</p>
                   <p className="text-primary text-sm mb-4">{event.date}</p>
-                  <a
+                  {/* <a
                     href={event.ticketLink}
                     className="mt-auto bg-lime text-black px-4 py-2 rounded-lg font-semibold hover:bg-lime"
                   >
                     Get Ticket
-                  </a>
+                  </a> */}
+                    <Link
+        to="/contact"
+        className="mt-auto bg-lime text-black px-4 py-2 rounded-lg font-semibold hover:bg-lime"
+      >
+        Get Ticket
+      </Link>
                 </div>
               ))
             ) : (

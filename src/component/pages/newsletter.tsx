@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 export default function Newsletter() {
@@ -86,9 +87,20 @@ export default function Newsletter() {
       </div>
       
       <nav className="flex flex-col m-5 space-x-8 mt-10 text-lg font-medium">
-        <a href="#home" className="hover:text-lime transition">HOME</a>
-        <a href="#events" className="hover:text-lime transition">EVENT</a>
-        <a href="#speakers" className="hover:text-lime transition">SCHEDULE</a>
+      <Link to="/Homepage" className="hover:text-lime transition ">
+           HOME
+          </Link>
+          <Link to="/Event" className="hover:text-lime transition ">
+           EVENT
+          </Link>
+          <Link to="/Schedule" className="hover:text-lime transition ">
+           SCHEDULE
+          </Link>
+          <Link to="/Contact" className="hover:text-lime transition ">
+           CONTACT US
+          </Link>
+
+        
        
       </nav>
     </section>

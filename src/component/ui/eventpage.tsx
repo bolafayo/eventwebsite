@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 export default function eventpage() {
   return (
@@ -15,9 +15,14 @@ export default function eventpage() {
           alt="Event chairs"
           className="rounded-xl shadow-lg w-1/2 h-fit mt-6 ml-26 "
         />
-          <button className="mt-4 bg-lime text-black px-6 py-2 rounded-xl font-semibold hover:bg-primary cursor-pointer ">
-            Explore
-          </button>
+        
+            <Link
+        to="/event"
+        className="bg-lime text-secondary mt-4 px-6 py-2 rounded-xl font-semibold hover:bg-primary cursor-pointer inline-block"
+      >
+         Explore
+      </Link>
+
         </div>
         <img
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"

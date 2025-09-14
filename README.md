@@ -1,13 +1,13 @@
-#EventX – Event Management Website
+# EventX – Event Management Website
 
 EventX is a modern event management web application built with Vite, React, TypeScript, and Tailwind CSS.
 It allows users to explore upcoming events, view schedules, register interest, and connect with organizers.
 
 The project demonstrates best practices in frontend development, such as:
 
-## **Component-based architecture with React**
+### **Component-based architecture with React**
 
-## **Routing and navigation using React Router**
+### **Routing and navigation using React Router**
 
 ## **Responsive layouts using Tailwind CSS**
 

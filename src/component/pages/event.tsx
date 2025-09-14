@@ -156,7 +156,7 @@ export default function EventsPage() {
         >
           <h2 className="text-4xl font-bold mb-8">Discover Upcoming Events</h2>
   
-          {/* 🔍 Search bar */}
+      
        <div className="flex justify-center">
        <div className="relative sm:w-96 md:w-1/2 text-primary bg-[#0f0f1a] rounded-2xl  m-6 p-1 " >
     <Search
@@ -169,7 +169,7 @@ export default function EventsPage() {
       value={searchTerm}
       onChange={(e) => {
         setSearchTerm(e.target.value);
-        setCurrentPage(1); // reset to first page on search
+        setCurrentPage(1); 
       }}
       className="pl-10 pr-4 py-2 w-full rounded-lg text-primary outline-none "
             />
@@ -196,12 +196,7 @@ export default function EventsPage() {
                   </p>
                   <p className="text-primary text-sm mb-2">{event.venue}</p>
                   <p className="text-primary text-sm mb-4">{event.date}</p>
-                  {/* <a
-                    href={event.ticketLink}
-                    className="mt-auto bg-lime text-black px-4 py-2 rounded-lg font-semibold hover:bg-lime"
-                  >
-                    Get Ticket
-                  </a> */}
+               
                     <Link
         to="/contact"
         className="mt-auto bg-lime text-black px-4 py-2 rounded-lg font-semibold hover:bg-lime"

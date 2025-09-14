@@ -4,6 +4,8 @@ import Homepage from './component/pages/homepage';
 import Navbar from './component/pages/navbar';
 import Heropage from './component/ui/heropage';
 import Event from "./component/pages/event";
+import SchedulePage from "./component/pages/schedule";
+import ContactPage from "./component/pages/contact";
 
 function App() {
  
@@ -16,8 +18,10 @@ function App() {
   
       <Route path='/' element={<Homepage />}></Route>
       <Route path='/event' element={<Event />}></Route>
-      <Route path='/event' element={<Navbar />}></Route>
+      <Route path='/navbar' element={<Navbar />}></Route>
       <Route path='/heropae' element={<Heropage />}></Route>
+      <Route path='/schedule' element={<SchedulePage />}></Route>
+      <Route path='/contact' element={<ContactPage />}></Route>
      
     </Routes>
     </BrowserRouter>

@@ -1,69 +1,52 @@
-# React + TypeScript + Vite
+#EventX – Event Management Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EventX is a modern event management web application built with Vite, React, TypeScript, and Tailwind CSS.
+It allows users to explore upcoming events, view schedules, register interest, and connect with organizers.
 
-Currently, two official plugins are available:
+The project demonstrates best practices in frontend development, such as:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##**Component-based architecture with React**
 
-## Expanding the ESLint configuration
+##**Routing and navigation using React Router**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+##**Responsive layouts using Tailwind CSS**
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+##**State management with React hooks**
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+##**Search and pagination for events**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+##**Form handling for contact and newsletter features**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##This project is a great starting point for anyone learning frontend development or planning to build a full event management system.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+##Features
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+##**Homepage with hero section and call-to-action**
+
+##**Events page with 12 sample events and pagination**
+
+##**Search functionality to filter events**
+
+##**Ticket link buttons on each event card**
+
+##**Schedule page with sessions and activities**
+
+##**Contact us page with form inputs for user inquiries**
+
+##**Newsletter subscription (stores email in browser localStorage)**
+
+##**Responsive design for desktop, tablet, and mobile*8
+
+##**Clean and modern interface built with Tailwind CSS**
+
+#Tech Stack
+
+##**Frontend Framework: React (with Vite)**
+
+##**Language: TypeScript**
+
+##**Styling: Tailwind CSS**
+
+##**Icons: Lucide React**
+
+##**Routing: React Router DOM**

@@ -5,9 +5,9 @@ It allows users to explore upcoming events, view schedules, register interest, a
 
 The project demonstrates best practices in frontend development, such as:
 
--- **Component-based architecture with React**
+- **Component-based architecture with React**
 
--- **Routing and navigation using React Router**
+- **Routing and navigation using React Router**
 
 ## **Responsive layouts using Tailwind CSS**
 
